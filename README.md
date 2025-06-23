@@ -39,7 +39,7 @@ To set up this database schema on your local PostgreSQL instance:
     ```
 4.  **Execute the Schema Script**: Copy the entire SQL schema provided in this repository (e.g., `schema.sql` if you save it to a file) and execute it in your PostgreSQL client.
     ```sql
-    -- If you saved the schema to a file named 'schema.sql'
+    -- If you saved the schema to a file named 'e_commerce_db.sql'
     \i /path/to/your/schema.sql
     ```
     Alternatively, you can just paste the `CREATE TABLE` statements directly into your client.
